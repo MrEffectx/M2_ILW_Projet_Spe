@@ -11,11 +11,13 @@ Il va consister en deux étapes majeures :
   (Type, Taille, Lieu, Pièces, Criminalité, Transport, Commerces ect...)
   
   Fichiers présents : 
+  
     Rapport écrit (40 - 60 pages) 
     Présentation PPTX du projet
     Les codes Front et Back
     
   Technologies utilisées : 
+  
     JAVA
     JAVASCRIPT
     HTML
