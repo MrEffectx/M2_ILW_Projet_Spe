@@ -3,12 +3,12 @@ Projet de spécialité M2 ILW Ensitech
 
 Le projet consiste en l'étude de l'évolution et la prédiction des prix des biens/terrains immobiliers en France. 
 
-Il va consister en deux étapes majeures : 
-  La recupération de bases de données par plusieurs moyens, leur concaténation.
+Il va contenir deux étapes majeures : 
+  * La recupération de bases de données par plusieurs moyens, leur concaténation.
   (Base déjà réalisées, bases que l'on va créer ect...)
   
-  Une fois une grande base de données créée, nous utiliserons notre jeu de données afin d'entrainer un réseau de neurones pour prédire l'évolution théorique du marché.
-  (Type, Taille, Lieu, Pièces, Criminalité, Transport, Commerces ect...)
+  * Une fois une grande base de données créée, nous utiliserons notre jeu de données afin d'entrainer un algorithme de Machine Learning pour prédire l'évolution théorique du marché.
+  (Type, Taille, Lieu, Pièces, Taux de Criminalité, Transport à proximité, Commerces ect...)
   
 ***************** PARTIE 1 *****************
 
@@ -25,19 +25,19 @@ Critères de recherches :
   
  Attributs géographiques : 
   - Type de ville
-  - Transports (métro, bus, train, aréoport)
-  - Criminalité locale
+  - Transports à proximité (métro, bus, train, aréoport)
+  - Taux Criminalité locale
   - Zone industrielle
   
 ***************** PARTIE 2 *****************
 
-Sur un site WEB, nous permettrons à l'utilisateur de rentrer des criètes de recherches précis parmis une multitude de propositions afin d'affiner ces choix.
-L'IA qui aura été entrainé avec notre base de données lui affichera un résultat prenant en compte les valeurs précédentes.
+Sur un site WEB, nous permettrons à l'utilisateur de rentrer des criètres de recherches précis parmis une multitude de propositions afin d'affiner ces choix.
+L'IA qui aura été entrainée avec notre base de données lui affichera un résultat(prix théorique) prenant en compte les valeurs précédentes.
 
 ***************** DOCUMENTS A RENDRE *****************
   Fichiers qui seront présentés : 
   
-    Rapport écrit (40 - 60 pages) 
+    Rapport écrit (30 - 60 pages) 
     Présentation PPTX du projet
     Les codes Front et Back
     
@@ -51,9 +51,18 @@ L'IA qui aura été entrainé avec notre base de données lui affichera un résu
     PYTHON
     POWERPOINT
     EXCEL
+    
+  Gestion de projet :
+  
+    Jira 
+    Scrum 
+    
+  Conception de projet: 
+    
+    StartUML
  
   Méhodes utilisées : 
   
-    Extraction donnée
-    Réseau neurone
+    Extraction, transformation, chargement de données  (ETL)
+    Machine Learning( reseau de neurone, Regression ...) 
     Site web 
