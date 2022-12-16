@@ -29,6 +29,12 @@ Critères de recherches :
   - Taux Criminalité locale
   - Zone industrielle
   
+  16/12/2022 - Création d'un document sur lequel seront regroupés les critères de recherche.
+             - Modification de 8 bases de données tirées du WEB afin d'en extraire les données lié au Val D'Oise
+             - Focalisation du projet au Val D'Oise
+             - La base de donnée des aéroports ne sera pas utilisable car aucune donnée n'appartient au Val D'Oise.
+             - Mise à jour du fichier THE_CSV
+             
 ***************** PARTIE 2 *****************
 
 Sur un site WEB, nous permettrons à l'utilisateur de rentrer des criètres de recherches précis parmis une multitude de propositions afin d'affiner ces choix.
